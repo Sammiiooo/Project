@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+
+    <title>Feedback</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row col-md-6 col-md-offset-3"></div>
+       
+            <div class="panel panel-primary">
+                <div class="panel-heading text-center">
+                    <h1>Feedback Form</h1>
+                </div>
+                <hr class="w-100 mx-auto"/>
+                <div class="panel-body">
+                    <form action="connect.php" method="post"> 
+                        <div class="form-group">
+                            <label for="firstname">First Name</label>
+                            <input type="text" class="form-control" id="firstname" name="firstname" />
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" class="form-control" id="lastname" name="lastname" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" id="email" name="email" />
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Phone Number</label>
+                            <input type="text" class="form-control" id="number" name="number" />
+                        </div>
+                        <div class="form-group">
+                            <label for="pettype">Which Pet</label>
+                            <div>
+                            <label for="dog" class="radio-inline"><input type="radio" name="pettype" value="d" id="dog">Dog</label>
+                            <label for="cat" class="radio-inline"><input type="radio" name="pettype" value="c" id="cat">Cat</label>
+                            <label for="rabbit" class="radio-inline"><input type="radio" name="pettype" value="r" id="rabbit">Rabbit</label>
+                        </div>
+                         <div class="form-group">
+                            <label for="feedback">Feedback</label>
+                            <input type="text" class="form-control" id="feedback" name="feedback" />
+                        </div>
+                        </div>
+                        <input type="submit" class="btn btn-primary">
+                    </form>
+                </div>
+            </div>
+        </div>
+   
+</body>
+
+</html>
